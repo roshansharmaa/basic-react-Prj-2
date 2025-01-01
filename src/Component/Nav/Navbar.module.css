@@ -1,0 +1,21 @@
+
+.nav_cont{
+  padding: 5px;
+  background: #242424;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.first{
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+.second {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}

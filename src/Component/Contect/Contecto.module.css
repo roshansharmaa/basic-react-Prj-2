@@ -1,0 +1,142 @@
+.main {
+  /* height: max-content; */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  max-width: 1740px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.second {
+  background: #242424;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.one {
+  display: flex;
+  gap: 2.5rem;
+/* inp & bytn gap */
+  flex-direction: column;
+  padding: 1rem;
+
+
+}
+
+
+.one button,.one input{
+  padding:  1rem;
+  font-size: .8rem;
+  border: 1px solid white;
+  background-color: #141414;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.one textarea{
+  background: #141414;
+}
+
+.one_one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* btns */
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+
+.one_one button {
+  margin: 0 auto;
+
+  width: 80%;
+}
+
+.one_two {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.two{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.two img{
+  display: flex;
+  width: 80%;
+}
+
+
+.one textarea{
+  border: 1px solid white;
+
+}
+
+
+.btn_end{
+  display: flex;
+  justify-content: end;
+
+}
+.btn_end button{
+  width: 30%;
+  margin: 0 auto;
+  /* background: yellow; */
+}
+
+
+.second button:hover{
+  background: #303030;
+}
+@media screen and (max-width:768px) { 
+
+  .second {
+    background: #242424;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
